@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.vercel/
+.env*
+*.tsbuildinfo
+# local-only: live theme backup, screenshots, tool state
+backup/
+eval/out/
+eval/ref/
+.playwright/
+.playwright-cli/
+.claude/

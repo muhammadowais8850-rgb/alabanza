@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Values measured from the live Horizon theme. */
+@theme {
+  --font-sans: var(--font-inter), sans-serif;
+  --color-gold: rgb(160 124 22);
+  --color-ink: rgba(0 0 0 / 0.81);
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+button:not(:disabled) { cursor: pointer; }
+
+.rte p { margin-bottom: 1em; }
+.rte h1, .rte h2, .rte h3 { font-weight: 700; margin: 1.2em 0 .5em; }
+.rte h2 { font-size: 24px; }
+.rte h3 { font-size: 18px; }
+.rte ul { list-style: disc; padding-left: 1.4em; margin-bottom: 1em; }
+.rte ol { list-style: decimal; padding-left: 1.4em; margin-bottom: 1em; }
+.rte a { text-decoration: underline; }
+.rte table { width: 100%; margin-bottom: 1em; border-collapse: collapse; }
+.rte td, .rte th { border: 1px solid rgb(0 0 0 / .1); padding: 6px 10px; }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
